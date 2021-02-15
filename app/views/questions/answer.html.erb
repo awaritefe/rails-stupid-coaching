@@ -1,0 +1,21 @@
+<div class="banner">
+  <h1>
+    Stupid Coaching
+  </h1>
+</div>
+
+  <div class="card">
+    <p> You: </p>
+      <%= @question %>
+  <br>
+  </div>
+
+<div class="card coach">
+  <p> Coach: </p>
+  <%= @answer %>
+</div>
+
+  <br>
+
+  <%= link_to "Ask another question?", ask_path %>
+
